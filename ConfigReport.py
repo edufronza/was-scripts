@@ -1,3 +1,5 @@
+#THIS SCRIPT GENERATES SINGLE XML FILE WITH THE FULL SETTINGS OF A WAS ND CELL.
+#IT INCLUDES APPLICATIONS, CLUSTERS, RESOURCES, APPLICATION SERVERS, ETC
 import getopt, os, shutil, re, sys, time
 from java.lang import System
 from xml.dom import minidom, Node
